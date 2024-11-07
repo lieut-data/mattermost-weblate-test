@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "For testing FormatJS with https://translate.mattermost.com/",
   "scripts": {
-    "extract": "formatjs extract \"src/**/*.{js,jsx,ts,tsx}\" --ignore=\"src/**/*.d.ts\" --out-file=src/i18n/intermediate.json"
+    "extract": "formatjs extract \"src/**/*.{js,jsx,ts,tsx}\" --ignore=\"src/**/*.d.ts\" --out-file=i18n/en.json"
   },
   "repository": {
     "type": "git",
