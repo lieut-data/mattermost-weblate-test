@@ -1,1 +1,8 @@
-{}
+{
+    "7w0ShG": {
+        "defaultMessage": "Mensaje 2 a traducir"
+    },
+    "id_specified": {
+        "defaultMessage": "Mensaje 1 a traducir"
+    }
+}
