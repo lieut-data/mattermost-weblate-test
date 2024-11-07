@@ -1,0 +1,21 @@
+{
+  "name": "mattermost-weblate-test-formatjs",
+  "version": "0.0.1",
+  "description": "For testing FormatJS with https://translate.mattermost.com/",
+  "scripts": {
+    "extract": "formatjs extract \"src/**/*.{js,jsx,ts,tsx}\" --ignore=\"src/**/*.d.ts\" --out-file=src/i18n/intermediate.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lieut-data/mattermost-weblate-test.git",
+    "directory": "formatjs"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lieut-data/mattermost-weblate-test/issues"
+  },
+  "homepage": "https://github.com/lieut-data/mattermost-weblate-test#readme",
+  "dependencies": {
+    "@formatjs/cli": "^6.2.12"
+  }
+}
